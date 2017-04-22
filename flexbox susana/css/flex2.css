@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+}
+
+.todo {
+    display: flex;
+    max-width: 840px;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    flex-flow: row wrap;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+img {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
+}
+
+.foto {
+    display: flex;
+    width: : 200px;
+    height: auto;
+    flex-direction: column;
+    background-color: white;
+    order: 1;
+    justify-content: center;
+    align-content: center;
+}
+
+.bcentral {
+    display: flex;
+    flex-grow: 1;
+    flex-flow: row wrap;
+    align-content: flex-end;
+    width: 500px;
+    height: 100px;
+    order: 2;
+}
+
+.texto1 {
+    display: inline-flex;
+    width: 500px;
+    height: auto;
+    margin-left: 10px;
+    font-family: monospace;
+    color: #607D8B;
+    font-size: 17px;
+    order: 1;
+}
+
+.texto2 {
+    display: inline-flex;
+    width: 500px;
+    height: auto;
+    margin-left: 10px;
+    font-family: monospace;
+    color: #9E9E9E;
+    font-size: 17px;
+    order: 2;
+}
+
+.botoncita {
+    display: flex;
+    border: solid 1px;
+    margin-left: 10px;
+    width: 200px;
+    height: 40px;
+    border-radius: 5%;
+    background-color: #9E9E9E;
+    color: white;
+    font-size: 15px;
+    font-family: monospace;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    order: 3;
+}
+
+.botonpresupuesto {
+    display: flex;
+    border: solid 1px;
+    width: 200px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5%;
+    background-color: white;
+    color: #9E9E9E;
+    font-size: 15px;
+    font-family: monospace;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    order: 4;
+}
+
+.bfinal {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: center;
+    flex-basis: 240px;
+    height: 100px;
+    order: 3;
+}
+
+.valoraciones {
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: column;
+    flex-basis: 90%;
+    width: 160px;
+    height: 20px;
+    font-family: monospace;
+    color: #607D8B;
+    font-size: 15px;
+    order: 8;
+}
+
+.comentarios {
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: column;
+    flex-basis: 90%;
+    width: 160px;
+    height: 20px;
+    font-family: monospace;
+    color: #9E9E9E;
+    font-size: 15px;
+    order: 7;
+}
+
+.column {
+    display: flex;
+    vertical-align: middle;
+    align-items: flex-end;
+    align-content: flex-end;
+}
+
+.contador {
+    display: flex;
+    flex-flow: column wrap;
+    flex-basis: 10%;
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #9E9E9E;
+    border-radius: 5%;
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    order: 5;
+}
+
+#star {
+    display: flex;
+    flex-flow: column wrap;
+    flex-basis: 10%;
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+    color: #9E9E9E;
+    order: 6;
+}
